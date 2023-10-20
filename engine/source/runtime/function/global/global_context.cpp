@@ -1,5 +1,5 @@
-#include <source/runtime/function/global/global_context.h>
-#include <source/runtime/function/render/window_system.h>
+#include "global_context.h"
+#include "window_system.h"
 
 namespace zj
 {

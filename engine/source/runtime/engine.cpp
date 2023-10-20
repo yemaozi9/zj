@@ -1,8 +1,8 @@
-#include <source/runtime/engine.h>
+#include "engine.h"
 #include <memory>
 #include <iostream>
-#include <source/runtime/function/render/window_system.h>
-#include <source/runtime/function/global/global_context.h>
+#include "window_system.h"
+#include "function/global/global_context.h"
 namespace zj
 {
     bool                            g_is_editor_mode{ false };

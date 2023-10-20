@@ -1,4 +1,0 @@
-
-
-add_executable(stb_image ./stb_image.cpp)
-add_test(NAME stb_image  COMMAND $<TARGET_FILE:stb_image>)
