@@ -16,7 +16,10 @@ endif()
 set(PICCOLO_ROOT_DIR "${CMAKE_CURRENT_SOURCE_DIR}")
 set(CMAKE_INSTALL_PREFIX "${PICCOLO_ROOT_DIR}/bin")
 set(BINARY_ROOT_DIR "${CMAKE_INSTALL_PREFIX}/")
-
+include(CTest)
+enable_testing()
 add_subdirectory(engine)
+
+
 
 
