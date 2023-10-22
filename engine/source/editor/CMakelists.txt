@@ -17,6 +17,8 @@ set_target_properties(${TARGET_NAME} PROPERTIES FOLDER "Engine")
 target_link_libraries(${TARGET_NAME} PiccoloRuntime)
 target_include_directories(${TARGET_NAME} PUBLIC include)
 
+
 add_subdirectory(source)
+
 
 set(PICCOLO_EDITOR_HEADS "${EDITOR_HEADERS}" PARENT_SCOPE)
